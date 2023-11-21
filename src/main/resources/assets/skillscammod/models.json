@@ -1,0 +1,30 @@
+{
+  "default": {
+    "texture": "skillscammod:textures/entity/skills.png",
+    "model": "skillscammod:models/entity/skills.geo.json",
+    "animations": "skillscammod:animations/entity/skills.animation.json"
+  },
+  "arafatka": {
+    "texture": "skillscammod:textures/entity/skills_arafatka.png",
+    "model": "skillscammod:models/entity/skills.geo.json",
+    "animations": "skillscammod:animations/entity/skills.animation.json"
+  },
+  "rocker": {
+    "texture": "skillscammod:textures/entity/rocker/rocker.png",
+    "model": "skillscammod:models/entity/rocker.geo.json",
+    "animations": "skillscammod:animations/entity/rocker.animation.json",
+    "light": 15,
+    "layers": {
+      "layer0": {
+        "texture":{
+          "path": "skillscammod:entity/rocker/rocker_layer_%s.png",
+          "count": 8,
+          "speed": 1.0
+        },
+        "color": [255,255,255,255],
+        "shimmer": true,
+        "glow": true
+      }
+    }
+  }
+}
